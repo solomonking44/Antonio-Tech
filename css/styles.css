@@ -1,0 +1,80 @@
+@font-face {
+    font-family: main;
+    src: url('../external/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: brand;
+    src: url('../external/fonts/Sedan_SC/SedanSC-Regular.ttf');
+}
+
+@font-face {
+    font-family: heading;
+    src: url('../external/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+body {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-family: main;
+}
+
+.reset {
+    all: unset;
+}
+
+.row {
+    height: 94.4vh;
+    margin: 0;
+    padding: 0;
+}
+
+.col-md-4 {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-8 {
+    background-image: url('../images/bg.jpg');
+    height: 100vh;
+}
+
+.form {
+    width: 70%;
+}
+
+.purple {
+    color: #A020F0;
+}
+
+.purple-bg {
+    background-color: #A020F0;
+}
+
+.purple-bg:hover {
+    background-color: #A02FFF;
+}
+
+.first-div {
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93%;
+}
+
+.navbar-brand {
+    font-family: brand;
+}
+
+.heading {
+    font-family: heading;
+}
